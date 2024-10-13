@@ -1,0 +1,9 @@
+.container__ingredients {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  max-width: 300px;
+  width: 100%;
+}

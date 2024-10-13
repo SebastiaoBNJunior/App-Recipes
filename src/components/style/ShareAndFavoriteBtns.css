@@ -1,0 +1,30 @@
+.ContainerBtns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.FavoriteBtnLabel, .ShareBtnLabel {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  position: relative;
+  width: 30px;
+}
+
+.FavoriteBtnInput, .ShareBtnInput {
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.FavoriteBtnIcon, .ShareBtnIcon {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}

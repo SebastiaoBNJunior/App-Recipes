@@ -1,0 +1,36 @@
+.ifood-carousel {
+  margin-top: 30px;
+}
+
+.ifood-carousel-row {
+  margin: 0;
+}
+
+.ifood-carousel-col {
+  padding: 0;
+}
+
+.ifood-carousel-img-container {
+  height: 200px;
+  position: relative;
+  width: 100%;
+}
+
+.ifood-carousel-img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.ifood-carousel-img-container h5 {
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  color: white;
+  left: 0;
+  margin: 0;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
